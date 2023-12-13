@@ -1,3 +1,6 @@
+##Install this on bash first
+pip install forex-python
+
 from forex_python.converter import CurrencyRates
 
 def currency_converter(amount, from_currency, to_currency):
